@@ -7,3 +7,7 @@ class Dog
     this_dogs_name
   end
 end
+
+lassie = Dog.new #instance of the object Dog
+lassie.name = "Lassie"
+lassie.name
